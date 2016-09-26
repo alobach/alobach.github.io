@@ -14,7 +14,8 @@
 .clearfix:after { clear: both; }
 
 body {
-	background: #fdfdfd;
+	background-image: url('../../img/bg.png');
+	background-repeat: repeat;
 	color: silver;
 	font-weight: 400;
 	font-size: 1em;
