@@ -1,0 +1,89 @@
+/* sun Skin */
+
+
+
+/* ------------------------------------------------------------------------ */
+/* Color
+/* ------------------------------------------------------------------------ */
+
+.jx-section-title-1 .jx-title , .jx-accordion .title , .jx-media-center .title , .jx-servicebox-1 .jx-service-item .service-title a , .jx-event-schedule .title {
+    color: #ffffff !important;
+}
+
+body {
+	background:#000000 !important;
+}
+
+body , .jx-accordion .description 
+{
+	color:#cccccc !important;
+}
+
+
+.jx-countdown-box.jx-white-bg p , .jx-testimonial-content .jx-testimonial-description p {
+    color: #666666 !important;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Background
+/* ------------------------------------------------------------------------ */
+
+.jx-section-title-1 .jx-title-border , .jx-countdown-box.jx-white-bg 
+{
+	background:#ffffff !important;
+}
+
+
+.jx-faq-description {
+    background: #ffffff !important;
+    color: #000000 !important;
+}
+
+
+
+.shortcode_tab_e .resp-tabs-container {
+	border: none !important;
+	background: #292929 !important;
+}
+
+
+.jx-map-company > ul > li {
+	border: 4px solid #000000 !important;
+	color: #666666 !important;
+}
+
+
+.jx-custom-flex .flex-custom-control-nav li a {
+	background:#000000 !important;
+}
+
+.
+
+
+/* ------------------------------------------------------------------------ */
+/* Background Color
+/* ------------------------------------------------------------------------ */
+
+.jx-white-bg {
+    background-color: #000000 !important;
+}
+.jx-grey-bg {
+    background-color: #222222 !important;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+/* Background RGBA Color
+/* ------------------------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------------------------------ */
+/* Border Color
+/* ------------------------------------------------------------------------ */
+
+
+
+
+

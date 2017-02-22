@@ -1,0 +1,252 @@
+/* Header ================================================== */		
+
+.jx-menu .main-menu ul, .jx-menu .main-menu li {
+    float: right !important;
+}
+
+.jx-right-vertical-border {
+    float: right !important;
+    right: 143px !important;
+	left: 0px !important;
+}
+
+
+.jx-event-title-box {
+	float:right;
+	text-align:right;
+}	
+
+.jx-event-box .jx-event-date {
+	float:right;
+}
+
+.jx-event-play {
+	float:right;
+}
+.jx-event-box-register.jx-register-box-2 .jx-event-date {
+	float:right;
+}
+
+
+form {
+    direction: rtl;
+}
+
+.jx-event-box-register .jx-event-register .jx-ticket-first-name {
+    float: right;
+    margin-left: 20px;
+	margin-right:0px;
+}
+
+.jx-event-box-register .jx-event-register .jx-ticket-phone {
+    float: right;
+    margin-left: 20px;
+	margin-right:0px;
+}
+
+.jx-event-box-register .jx-event-register .jx-ticket-email {
+    margin-left: 20px;
+}
+	
+.jx-event-box-register .jx-event-register .jx-ticket-type {
+    margin-left: 20px;
+}
+	
+	
+	
+	
+	
+
+/* #Left - Right ================================================== */		
+#left,.left {
+  float: right !important;
+}
+#right,.right {
+  float: left !important;
+}
+
+
+/* According ============================================ */		
+
+.jx-accordion {
+    direction: rtl;
+}
+
+
+/* Contact Form ========================================= */		
+
+.jx-contact-form {
+     direction: rtl;
+}
+
+.jx-contact-form .contact-full-name {
+    float: right;
+    margin-left: 10px;
+	margin-right: 0px;
+}
+
+
+
+/* Faq ================================================== */		
+
+.jx-faq .jx-faq-head .jx-faq-title {
+    margin-left: 25px;
+	margin-right:0px;
+    float: right;
+}
+
+
+.jx-faq-description {
+	text-align:right;
+}
+
+
+/* Testimonial ================================================== */		
+
+.jx-testimonial-item .jx-testimonial-image {
+    float: right;
+    margin-left: 20px;
+	margin-right: 0px;
+}
+
+.jx-testimonial-details {
+	text-align: right;
+}
+
+.jx-testimonial-details .jx-testimonial-icon {
+    float: right;
+    margin-left: 10px;
+	margin-right: 0px;
+}
+
+
+/* Protfolio ================================================== */		
+
+.jx-custom-flex {
+    position: relative;
+    direction: rtl;
+}
+
+
+/* Button ================================================== */		
+
+.jx-btn-default i {
+    margin-right: 0px;
+    margin-left: 10px;
+    float: right;
+}
+
+.jx-btn-default i {
+    margin-right: 0px;
+    margin-right: 10px;
+	margin-left:0px;
+    float: left;
+}
+
+.jx-btn-default span {
+    margin-left: 0px;
+	margin-right:10px;
+    float: left;
+}
+
+
+
+/* MAP ================================================== */		
+
+.jx-venue-box {
+	direction:rtl;
+}
+
+.jx-venue-heading i {
+    margin-right: 0px;
+	margin-left:5px;
+}
+
+
+/* Slider Bottom Info ================================================== */		
+
+.jx-slider-bottom-info {
+	direction:rtl;
+}
+
+.jx-info-icon {
+    float: right;
+}
+
+/* Speakers  ================================================== */		
+
+.jx-speakers {
+	direction:rtl;
+}
+
+
+
+
+/* Price  ================================================== */	
+
+.jx-price-table .jx-price-item .jx-package-feature ul li {
+	direction:rtl;
+}
+
+.jx-price-table .jx-price-item .jx-package-feature ul li i {
+    margin-right: 0px;
+	margin-left:10px;
+}
+
+
+
+
+/* Media Center  ================================================== */	
+
+.jx-media-center {
+    direction: rtl;
+}
+
+
+
+/* Tabs According  ================================================== */	
+
+.shortcode_tab_e .resp-tabs-container {
+	direction:rtl;
+}
+
+.jx-event-schedule .right-position {
+	float: left;
+	margin-left: 10px;
+	margin-right: -70px;
+	padding-right: 84px;
+	padding-left: 0px;
+	border-right: 2px solid rgb(204, 204, 204);
+	border-left: none !important;
+}
+
+.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+	float:right;
+}
+
+
+.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+	float:right;
+	margin-left:15px;
+		margin-right:0px;
+}
+
+.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li:last-child {
+    margin-left: 0px !important;
+}
+
+.shortcode_tab_e .resp-tabs-container {
+    clear: right !important;
+}
+
+
+
+/* Map Company  ================================================== */	
+
+.jx-map-company {
+	direction:rtl;
+}
+
+.jx-map-company > ul > li {
+    float: right;
+}
