@@ -202,7 +202,7 @@ Version: 		1.0
 				/* Contact Form Submit */
 				$(document).on('submit', '#contactForm', function()
 				 {  
-				  $.post('/ievent/php/contact-process.php', $(this).serialize(), function(data)
+				  $.post('./php/contact-process.php', $(this).serialize(), function(data)
 				  {
 					alert(data);	  
 				   $(".jx-result").html(data);   
