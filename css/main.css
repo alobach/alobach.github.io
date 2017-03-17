@@ -490,14 +490,13 @@ div#social .lastfm a {
     background-image: url(../img/social/balloon-social-item-lastfm2.png);
 }
 
-
 div#social .rocks {
-	z-index: 21;
-	top: 35px;
-	left: 20px;
-	width: 88px;
-	height: 82px;
-	background-image: url(../img/social/balloon-social-comment-rocks.png);
+    z-index: 21;
+    top: 35px;
+    left: 20px;
+    width: 88px;
+    height: 82px;
+    background-image: url(../img/social/balloon-social-comment-rocks.png);
 }
 
 div#social .soundcloud {
@@ -514,15 +513,13 @@ div#social .soundcloud a {
     background-image: url(../img/social/balloon-social-item-soundcloud2.png);
 }
 
-
 div#social .bang {
-	z-index: 31;
-	top: 250px;
-	left: 58px;
-	width: 84px;
-	height: 58px;
-	transform: rotate(-14deg);
-	background-image: url(../img/social/balloon-social-comment-bang.png);
+    z-index: 31;
+    top: 250px;
+    left: 58px;
+    width: 84px;
+    height: 58px;
+    background-image: url(../img/social/balloon-social-comment-bang.png);
 }
 
 div#social .twitter {
@@ -539,14 +536,13 @@ div#social .twitter a {
     background-image: url(../img/social/balloon-social-item-twitter2.png);
 }
 
-
 div#social .blah {
-	z-index: 41;
-	top: 38px;
-	left: 230px;
-	width: 64px;
-	height: 66px;
-	background-image: url(../img/social/balloon-social-comment-blah.png);
+    z-index: 41;
+    top: 38px;
+    left: 230px;
+    width: 64px;
+    height: 66px;
+    background-image: url(../img/social/balloon-social-comment-blah.png);
 }
 
 div#social .flickr {
@@ -563,16 +559,16 @@ div#social .flickr a {
     background-image: url(../img/social/balloon-social-item-flickr2.png);
 }
 
-
 div#social .snaps {
-	z-index: 51;
-	top: 174px;
-	left: 374px;
-	width: 82px;
-	height: 62px;
-	transform: rotate(14deg);
-	background-image: url(../img/social/balloon-social-comment-snaps.png);
+    z-index: 51;
+    top: 174px;
+    left: 374px;
+    width: 82px;
+    height: 62px;
+    transform: rotate(14deg);
+    background-image: url(../img/social/balloon-social-comment-snaps.png);
 }
+
 div#social .facebook {
     z-index: 60;
     top: 40px;
@@ -587,14 +583,13 @@ div#social .facebook a {
     background-image: url(../img/social/balloon-social-item-facebook2.png);
 }
 
-
 div#social .love {
-	z-index: 61;
-	top: -20px;
-	left: 360px;
-	width: 72px;
-	height: 76px;
-	background-image: url(../img/social/balloon-social-comment-love.png);
+    z-index: 61;
+    top: -20px;
+    left: 360px;
+    width: 72px;
+    height: 76px;
+    background-image: url(../img/social/balloon-social-comment-love.png);
 }
 
 div#floating-box * {
