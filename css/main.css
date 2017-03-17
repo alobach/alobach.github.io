@@ -188,7 +188,7 @@ div#projects a:hover {
 div#projects .datm {
     z-index: 60;
     top: 70px;
-    left: 20px;
+    left: 70px;
     width: 222px;
     height: 164px;
     transform: rotate(-4deg);
@@ -272,10 +272,10 @@ div#projects .m3u a {
 div#projects .unity {
     z-index: 60;
     top: 48px;
-    left: 235px;
+    left: 335px;
     width: 146px;
     height: 134px;
-    transform: rotate(-5deg);
+    transform: rotate(5deg);
 }
 
 div#projects .unity a {
@@ -307,7 +307,7 @@ div#projects .unity a {
 div#projects .gtb {
     z-index: 30;
     top: 240px;
-    left: 100px;
+    left: 150px;
     width: 246px;
     height: 194px;
 }
@@ -397,7 +397,7 @@ div#work a:hover {
 div#work .company1 {
     z-index: 20;
     top: 60px;
-    left: 25px;
+    left: 45px;
     width: 224px;
     height: 148px;
 }
@@ -408,20 +408,19 @@ div#work .company1 a.quodis {
     background-image: url(../img/work/balloon-work-item-quodis2.png);
 }
 
-
-/*div#work .webdesign {
-	z-index: 21;
-	top: 60px;
-	left: 0;
-	width: 96px;
-	height: 90px;
-	background-image: url(../img/work/balloon-work-comment-webdesign.png);
-}*/
+div#work .webdesign {
+    z-index: 21;
+    top: 40px;
+    left: -10px;
+    width: 96px;
+    height: 90px;
+    background-image: url(../img/work/balloon-work-comment-webdesign.png);
+}
 
 div#work .company2 {
     z-index: 22;
     top: 20px;
-    left: 200px;
+    left: 240px;
 }
 
 div#work .company2 a.development {
