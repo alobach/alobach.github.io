@@ -491,14 +491,14 @@ div#social .lastfm a {
 }
 
 
-/*div#social .rocks {
+div#social .rocks {
 	z-index: 21;
-	top: 70px;
+	top: 35px;
 	left: 20px;
 	width: 88px;
 	height: 82px;
-	background-image: url(../img/social/balloon-social-comment-rocks2.png);
-}*/
+	background-image: url(../img/social/balloon-social-comment-rocks.png);
+}
 
 div#social .soundcloud {
     z-index: 30;
@@ -515,14 +515,15 @@ div#social .soundcloud a {
 }
 
 
-/*div#social .bang {
+div#social .bang {
 	z-index: 31;
 	top: 250px;
-	left: 18px;
+	left: 58px;
 	width: 84px;
 	height: 58px;
-	background-image: url(../img/social/balloon-social-comment-bang4.png);
-}*/
+	transform: rotate(-14deg);
+	background-image: url(../img/social/balloon-social-comment-bang.png);
+}
 
 div#social .twitter {
     z-index: 40;
@@ -539,14 +540,14 @@ div#social .twitter a {
 }
 
 
-/*div#social .blah {
+div#social .blah {
 	z-index: 41;
-	top: 48px;
-	left: 210px;
+	top: 38px;
+	left: 230px;
 	width: 64px;
 	height: 66px;
-	background-image: url(../img/social/balloon-social-comment-blah2.png);
-}*/
+	background-image: url(../img/social/balloon-social-comment-blah.png);
+}
 
 div#social .flickr {
     z-index: 50;
@@ -563,15 +564,15 @@ div#social .flickr a {
 }
 
 
-/*div#social .snaps {
+div#social .snaps {
 	z-index: 51;
 	top: 174px;
-	left: 384px;
+	left: 374px;
 	width: 82px;
 	height: 62px;
-	background-image: url(../img/social/balloon-social-comment-snaps2.png);
-}*/
-
+	transform: rotate(14deg);
+	background-image: url(../img/social/balloon-social-comment-snaps.png);
+}
 div#social .facebook {
     z-index: 60;
     top: 40px;
@@ -587,14 +588,14 @@ div#social .facebook a {
 }
 
 
-/*div#social .love {
+div#social .love {
 	z-index: 61;
-	top: 12px;
-	left: 340px;
+	top: -20px;
+	left: 360px;
 	width: 72px;
 	height: 76px;
-	background-image: url(../img/social/balloon-social-comment-love2.png);
-}*/
+	background-image: url(../img/social/balloon-social-comment-love.png);
+}
 
 div#floating-box * {
     text-indent: -9999px;
