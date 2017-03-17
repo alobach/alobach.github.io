@@ -394,15 +394,15 @@ div#work a:hover {
     filter: alpha(opacity=60);
 }
 
-div#work .company {
+div#work .company1 {
     z-index: 20;
     top: 60px;
-    left: 45px;
+    left: 25px;
     width: 224px;
     height: 148px;
 }
 
-div#work .company a.quodis {
+div#work .company1 a.quodis {
     width: 224px;
     height: 148px;
     background-image: url(../img/work/balloon-work-item-quodis2.png);
@@ -418,12 +418,15 @@ div#work .company a.quodis {
 	background-image: url(../img/work/balloon-work-comment-webdesign.png);
 }*/
 
-div#work .development {
+div#work .company2 {
     z-index: 22;
     top: 20px;
-    left: 230px;
-    width: 120px;
-    height: 90px;
+    left: 200px;
+}
+
+div#work .company2 a.development {
+    width: 130px;
+    height: 100px;
     background-image: url(../img/work/balloon-work-comment-development2.png);
 }
 
@@ -663,38 +666,38 @@ div#floating-box .float-exclamation .response {
     background-image: url(../img/page/balloon-float-exclamation-response.png);
 }
 
-div#floating-box .float-floating-sentence {
+div#floating-box .cv:hover {
+    background-position: 0 10px;
+    opacity: .6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+}
+
+div#floating-box .cl:hover {
+    background-position: 0 10px;
+    opacity: .6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+}
+
+div#floating-box .cv a {
     position: absolute;
-    z-index: 51;
+    z-index: 20;
     top: 520px;
-    left: 700px;
-    width: 170px;
-    height: 120px;
+    left: 750px;
+    width: 150px;
+    height: 100px;
     background-image: url(../img/page/balloon-float-floating-talk2.png);
 }
 
-div#floating-box .float-floating-response {
+div#floating-box .cl a {
     position: absolute;
-    z-index: 60;
+    z-index: 22;
     top: 464px;
-    left: 790px;
+    left: 840px;
     width: 100px;
     height: 100px;
     background-image: url(../img/page/balloon-float-floating-response2.png);
-}
-
-div#floating-box .float-floating-sentence:hover {
-    background-position: 0 10px;
-    opacity: .6;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    filter: alpha(opacity=60);
-}
-
-div#floating-box .float-floating-response:hover {
-    background-position: 0 10px;
-    opacity: .6;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    filter: alpha(opacity=60);
 }
 
 div#brand * {
