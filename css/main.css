@@ -71,6 +71,18 @@ h6 {
     font-weight: normal;
 }
 
+a:hover,
+a:focus {
+    color: #8CC63F;
+    text-decoration: underline;
+    outline: none;
+}
+
+a:active {
+    color: #8CC63F;
+    text-decoration: none;
+}
+
 q:before,
 q:after {
     content: '';
@@ -97,19 +109,26 @@ body {
 
 
 /*h1 {
-	width: 500px;
-	height: 170px;
-	font-size: 20px;
-	font-weight: bold;
-	text-indent: -9999px;
-	overflow: hidden;
-	display: block;
-	background-image: url(../img/page/brand-logo.png);
+    width: 500px;
+    height: 170px;
+    font-size: 20px;
+    font-weight: bold;
+    text-indent: -9999px;
+    overflow: hidden;
+    display: block;
+    background-image: url(../img/page/brand-logo.png);
+}*/
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
 }
-div#brand h1 {
-	top: 440px;
-	left: 292px;
-	z-index: 40;
+
+
+/*div#brand h1 {
+    top: 440px;
+    left: 292px;
+    z-index: 40;
 }*/
 
 div#page {
@@ -493,7 +512,7 @@ div#social .lastfm a {
 div#social .rocks {
     z-index: 21;
     top: 35px;
-    left: 20px;
+    left: 0px;
     width: 88px;
     height: 82px;
     background-image: url(../img/social/balloon-social-comment-rocks.png);
@@ -791,4 +810,140 @@ div#brand img.blue-rumba {
     top: -60px;
     left: -30px;
     z-index: 10;
+}
+
+div#colophon * {
+    display: none;
+}
+
+div#colophon2 * {
+    display: none;
+}
+
+div#colophon3 * {
+    display: none;
+}
+
+div#colophon4 * {
+    display: none;
+}
+
+div#colophon-notes h2 {
+    margin-bottom: 20px;
+    color: #8CC63F;
+}
+
+div#colophon-notes2 h2 {
+    margin-bottom: 20px;
+    color: #8CC63F;
+}
+
+div#colophon-notes3 h2 {
+    margin-bottom: 20px;
+    color: #8CC63F;
+}
+
+div#colophon-notes4 h2 {
+    margin-bottom: 20px;
+    color: #8CC63F;
+}
+
+div#colophon-notes div.hr {
+    height: 4px;
+    background: transparent url(../img/hr-tile-pattern.jpg) center left repeat-x;
+    margin-bottom: 20px;
+}
+
+div#colophon-notes2 div.hr {
+    height: 4px;
+    background: transparent url(../img/hr-tile-pattern.jpg) center left repeat-x;
+    margin-bottom: 20px;
+}
+
+div#colophon-notes3 div.hr {
+    height: 4px;
+    background: transparent url(../img/hr-tile-pattern.jpg) center left repeat-x;
+    margin-bottom: 20px;
+}
+
+div#colophon-notes4 div.hr {
+    height: 4px;
+    background: transparent url(../img/hr-tile-pattern.jpg) center left repeat-x;
+    margin-bottom: 20px;
+}
+
+div#colophon-notes div.hr hr {
+    display: none;
+}
+
+div#colophon-notes2 div.hr hr {
+    display: none;
+}
+
+div#colophon-notes3 div.hr hr {
+    display: none;
+}
+
+div#colophon-notes4 div.hr hr {
+    display: none;
+}
+
+div#colophon-notes a,
+div#colophon-notes a:visited {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #00602B;
+    padding: 1px 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+div#colophon-notes2 a,
+div#colophon-notes2 a:visited {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #00602B;
+    padding: 1px 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+div#colophon-notes3 a,
+div#colophon-notes3 a:visited {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #00602B;
+    padding: 1px 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+div#colophon-notes4 a,
+div#colophon-notes4 a:visited {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #00602B;
+    padding: 1px 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+div#colophon-notes a:hover {
+    background-color: #004921;
+    color: #FFF;
+}
+
+div#colophon-notes2 a:hover {
+    background-color: #004921;
+    color: #FFF;
+}
+
+div#colophon-notes3 a:hover {
+    background-color: #004921;
+    color: #FFF;
+}
+
+div#colophon-notes4 a:hover {
+    background-color: #004921;
+    color: #FFF;
 }
