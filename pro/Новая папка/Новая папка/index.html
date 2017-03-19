@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Maserati</title>
+<link href="CSS/styles.css" rel="stylesheet" type="text/css"/>
+  <!--  <script src="JS/jquery-1.11.0.min.js"></script>
+    <script src="JS/scrypts.js"></script>-->
+</head>
+<body>
+<div id="wrapper">
+    <div id="header">
+        <img alt="Изображение" src="images/Header.png"/>
+    </div>
+    <div id="content">
+        <div id="nav" >
+            <ul>
+                <li><a href="index.html"><img alt="Изображение" src="images/Logo.jpg"/></a></li>
+                <li><a href="Ghibili.html">Ghibli</a></li>
+                <li><a href="Quattroporte.html">Quattroporte</a></li>
+                <li><a href="GranTurismo.html">GranTurismo</a></li>
+            </ul>
+            <div id="map"><img src="images/Map.jpg" alt="Map"></div>
+        </div>
+        <div id="main">
+          <table>
+              <tr >
+                <td id="main_title"  colspan="3"><h1>Главная</h1></td>
+              </tr>
+              <tr>
+                <td class="small_card" >
+                 <img alt="Изображение" src="images/Ghibli.jpg"/>
+                    <div class="content">
+                    <small>Бизнес класс</small>
+                    <h2>Ghibli</h2>
+                    <p>Maserati Ghibli III — седан бизнес-класса итальянской компании Maserati, который поступил в продажу во второй половине 2013</p>
+                    <a href="Ghibili.html">Перейти</a>
+                    </div>
+                </td>
+                  
+                 <td class="small_card" >
+                 <img alt="Изображение" src="images/Quatro.jpg"/>
+                     <div class="content">
+                    <small>Представительский класс</small>
+                    <h2>Quattroporte</h2>
+                    <p>Maserati Quattroporte — спортивный полноразмерный седан класса люкс, которые изготовляются итальянской компанией Maserati с 1963</p>
+                    <a href="Quattroporte.html">Перейти</a>
+                     </div>
+                </td>
+                  
+                  <td class="small_card" >
+                 <img alt="Изображение" src="images/Grand.jpg"/>
+                      <div class="content">
+                    <small>Купе</small>
+                    <h2>GranTurismo</h2>
+                    <p>Maserati GranTurismo — автомобиль класса Гран Туризмо от итальянского производителя Maserati. Общественности был представлен в марте 2007 года на Женевском автосалоне.</p>
+                    <a href="GranTurismo.html">Перейти</a>
+                      </div>
+                </td>
+              </tr>
+              <tr>
+                  <td class="big_card"  colspan="3">
+                  <img alt="Изображение" src="images/Form.png"/>
+                        <form onsubmit="return false" action="Home/Lid" method="POST">
+                            <fieldset>
+                                <legend>Оформление заказа</legend>
+                                <input type="text" name="Name" placeholder="Введите ваше имя" required/><br/>
+                                 <!--Тут ошибка-->
+                                <input type="tel" name="Tel" placeholder="Введите номер телефона в формате 8-ххх-ххх-хххх" required patern="8-[0-9]{3}-[0-9]{3}-[0-9]{4}"/><br/>
+                                <!--Тут ошибка-->
+                                <select name="Car" required>
+                                    <option value="Ghibili" >Ghibili</option>
+                                    <option value="Quattroporte">Quattroporte</option>
+                                    <option value="GranTurismo">GranTurismo</option>
+                                </select><br/>
+                                <input type="submit"/>
+                            </fieldset>
+                      </form>
+                  </td>
+              </tr>
+        </table>
+        </div>
+    </div>
+    <div id="footer">Copyrite</div>
+</div>
+</body>
+</html>

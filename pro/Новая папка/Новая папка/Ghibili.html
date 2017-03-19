@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Maserati</title>
+    <link href="CSS/styles.css" rel="stylesheet" type="text/css"/>
+    <!--  <script src="JS/jquery-1.11.0.min.js"></script>
+    <script src="JS/scrypts.js"></script>-->
+</head>
+   
+<body>
+<div id="wrapper">
+    <div id="header"><img src="images/Header.png"/></div>
+    <div id="content">
+        <div id="nav" >
+            <ul>
+                <li><a href="index.html"><img alt="Изображение" src="images/Logo.jpg"/></a></li>
+                <li><a href="Ghibili.html">Ghibli</a></li>
+                <li><a href="Quattroporte.html">Quattroporte</a></li>
+                <li><a href="GranTurismo.html">GranTurismo</a></li>
+            </ul>
+            <div id="map"><img src="images/Map.jpg" alt="Map"></div>
+        </div>
+        <div id="main">
+          <table border="1px solid black">
+              <tr>
+                <td id="main_title" colspan="3"><h1>Ghibli</h1></td>
+              </tr>
+              <tr class="big_pic">
+                <td colspan="3"><img id="Preview" src="IMG/Ghibli-1.jpeg"/></td>
+              </tr>
+              <tr class="small_pic">
+                <td><img onclick="SetIMG(this.src)" src="IMG/Ghibli-1.jpeg"/></td>
+                <td><img onclick="SetIMG(this.src)" src="IMG/Ghibli-2.jpeg"/></td>
+                <td><img onclick="SetIMG(this.src)" src="IMG/Ghibli-3.jpeg"/></td>
+              </tr>
+        </table>
+        </div>
+     <div class="form_block big_card">
+                  <img alt="Изображение" src="images/Form.png"/>
+                        <form action="Home/Lid" method="POST">
+                            <fieldset>
+                                <legend>Оформление заказа</legend>
+                                <input type="text" placeholder="Введите ваше имя" required/><br/>
+                                 <!--Тут ошибка-->
+                                <input type="tel" placeholder="Введите номер телефона в формате 8-ххх-ххх-хххх" required patern="8-[0-9]{3}-[0-9]{3}-[0-9]{4}"/><br/>
+                                <!--Тут ошибка-->
+                                <select required>
+                                    <option selected value="Ghibili">Ghibili</option>
+                                    <option value="Quattroporte">Quattroporte</option>
+                                    <option value="GranTurismo">GranTurismo</option>
+                                </select><br/>
+                                <input type="submit"/>
+                            </fieldset>
+                      </form>
+   </div>
+                 
+              
+    </div>
+    
+    <div id="footer">Copyrite</div>
+</div>
+</body>
+</html>

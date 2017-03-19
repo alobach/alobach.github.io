@@ -1,0 +1,91 @@
+
+img{
+  width: 100% auto;
+  display: block;
+  max-width: 100%;
+}
+.hor-line{
+  width: 80% auto;
+
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.main-content{
+  width: 80% auto;
+  margin-top: 60px;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #F0F0F0;
+  padding-bottom: 10px;
+}
+.header{
+  padding-top: 50px;
+}
+.header h1,p{
+  text-align: center;
+  font-family: 'Indie Flower', cursive, Monospace;
+}
+.font-header-h1{font-size: 4em;}
+  .font-header-p{font-size: 2em;}
+    .font-bottom-img{font-size: 1.5em;}
+
+.block-img{
+  border: 1px solid 	#E8E8E8 ;
+  border-radius: 5px;
+  padding: 0px 5px 0px 5px;
+  margin-left: 66px;
+  margin-right: 66px;
+  background-color: #fff;
+}
+.block-img p{
+  padding-top: 10px;
+}
+.content{
+  width: 50% auto;
+  padding-left: 140px;
+  padding-right: 140px;
+  font-family: 'Indie Flower', cursive, Monospace;
+}
+.content span{
+  font-size: 1.3em;
+  font-weight: 900;
+}
+.content li{
+  font-size: 1.3em;
+}
+.content-bottom-text, .content-bottom-text-title{
+  text-align: left;
+}
+.content-bottom-text{font-size: 1.7em;}
+  .content-bottom-text-title{font-size: 1.2em; color:	#B0B0B0;}
+
+.footer-write{font-size: 1.2em;}
+  .footer-made{font-size: 1.2em;}
+/*.footer-made span:before{
+  content: '\2665';
+  color: red;
+}*/
+.heart{
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  top: 5px;
+}
+.heart4{
+  fill: red;
+  position: relative;
+  top: 5px;
+  width: 17px;
+  animation: pulse 1s ease infinite;
+}
+@keyframes pulse{
+0%{transform: scale(1);}
+  50%{transform: scale(1.3);}
+    100%{transform: scale(1);}
+}

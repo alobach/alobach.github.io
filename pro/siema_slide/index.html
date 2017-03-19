@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+    .siema{
+        width: 440px;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    button{
+        width: 50px;
+        height: 20px;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    </style>
+</head>
+<body>
+    <div class="siema">
+        <div><img src="img/1.jpg"></div>
+        <div><img src="img/2.jpg"></div>
+        <div><img src="img/3.jpg"></div>
+        <div><img src="img/4.jpg"></div>
+        <div><img src="img/5.jpg"></div>
+        <div><img src="img/6.jpg"></div>
+        <div><img src="img/7.jpg"></div>
+        <div><img src="img/8.jpg"></div>
+        <div><img src="img/9.jpg"></div>
+        <div><img src="img/10.jpg"></div>
+        <div><img src="img/11.jpg"></div>
+        <div><img src="img/12.jpg"></div>
+        <div><img src="img/13.jpg"></div>
+        <div><img src="img/14.jpg"></div>
+      </div>
+      <button class="prev">Prev</button>
+      <button class="next">Next</button>
+      <script src="siema.min.js"></script>
+        <script>
+           const mySiema = new Siema({
+                    selector: '.siema',
+                    duration: 300,
+                    easing: 'ease-out',
+                    perPage: 1,
+                    startIndex: 0,
+                    draggable: true,
+                    threshold: 1,
+                    loop: false,});
+                    document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
+                    document.querySelector('.next').addEventListener('click', () => mySiema.next());
+        </script>
+</body>
+</html>

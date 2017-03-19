@@ -205,7 +205,7 @@ div#projects a:hover {
 }
 
 div#projects .datm {
-    z-index: 60;
+    z-index: 50;
     top: 70px;
     left: 70px;
     width: 222px;
@@ -219,24 +219,23 @@ div#projects .datm a {
     background-image: url(../img/projects/balloon-projects-item-datm.png);
 }
 
-
-/*div#projects .band {
-	z-index: 51;
-	top: 14px;
-	left: 70px;
-	width: 74px;
-	height: 80px;
-	background-image: url(../img/projects/balloon-projects-comment-band.png);
+div#projects .band {
+    z-index: 51;
+    top: 14px;
+    left: 70px;
+    width: 74px;
+    height: 80px;
+    background-image: url(../img/projects/balloon-projects-comment-band.png);
 }
 
 div#projects .shake {
-	z-index: 52;
-	top: 160px;
-	left: 0;
-	width: 94px;
-	height: 106px;
-	background-image: url(../img/projects/balloon-projects-comment-shake.png);
-}*/
+    z-index: 52;
+    top: 150px;
+    left: 10;
+    width: 94px;
+    height: 106px;
+    background-image: url(../img/projects/balloon-projects-comment-shake.png);
+}
 
 div#projects .pseudonimo {
     z-index: 40;
@@ -303,15 +302,14 @@ div#projects .unity a {
     background-image: url(../img/projects/balloon-projects-item-unity.png);
 }
 
-
-/*div#projects .pop {
-	z-index: 61;
-	top: 0;
-	left: 400px;
-	width: 98px;
-	height: 92px;
-	background-image: url(../img/projects/balloon-projects-comment-pop.png);
-}*/
+div#projects .pop {
+    z-index: 61;
+    top: 170px;
+    left: 530px;
+    width: 98px;
+    height: 92px;
+    background-image: url(../img/projects/balloon-projects-comment-pop.png);
+}
 
 
 /*div#projects .dj {
@@ -337,25 +335,24 @@ div#projects .gtb a {
     background-image: url(../img/projects/balloon-projects-item-gtb.png);
 }
 
+div#projects .free {
+    z-index: 31;
+    top: 250px;
+    left: 65px;
+    width: 108px;
+    height: 96px;
+    background-image: url(../img/projects/balloon-projects-comment-free.png);
+}
 
-/*div#projects .free {
-	z-index: 31;
-	top: 230px;
-	left: 90px;
-	width: 108px;
-	height: 96px;
-	background-image: url(../img/projects/balloon-projects-comment-free.png);
-}*/
-
-
-/*div#projects .cc {
-	z-index: 32;
-	top: 360px;
-	left: 100px;
-	width: 110px;
-	height: 94px;
-	background-image: url(../img/projects/balloon-projects-comment-cc.png);
-}*/
+div#projects .cc {
+    z-index: 32;
+    top: 300px;
+    left: 380px;
+    width: 110px;
+    height: 94px;
+    background-image: url(../img/projects/balloon-projects-comment-cc.png);
+    transform: rotate(30deg);
+}
 
 
 /*div#projects .mp3jing {
