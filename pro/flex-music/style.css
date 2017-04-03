@@ -1,0 +1,159 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #222;
+    font-size: 0.9em;
+}
+
+main {
+    flex: 1 0 auto;
+    display: flex;
+}
+
+footer {
+    flex: 0 0 80px;
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(61, 100, 158, .9);
+}
+
+aside {
+    display: flex;
+    flex: 0 0 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+}
+
+aside i.fa {
+    font-size: 1.2em;
+}
+
+.content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.music-head {
+    flex: 0 0 280px;
+    display: flex;
+    padding: 20px;
+    background-color: #4e4e4e;
+}
+
+.music-list {
+    flex: 1 0 auto;
+    list-style-type: none;
+    padding: 5px 10px 0px;
+}
+
+li {
+    display: flex;
+    padding: 0 20px;
+    min-height: 50px;
+}
+
+li p {
+    flex: 0 0 25%;
+}
+
+li span.catty-cloud {
+    border: 1px solid #222;
+    font-size: 0.6em;
+    padding: 3px;
+}
+
+.music-list>li:nth-child(2n) {
+    background-color: #f2f2f2;
+}
+
+.catty-music {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 50px;
+}
+
+.catty-music div:nth-child(1) {
+    margin-bottom: auto;
+}
+
+.catty-music div:nth-child(2) {
+    margin-top: 0;
+}
+
+.catty-music div:nth-child(2) i.fa {
+    font-size: 0.9em;
+    padding: 0 0.7em;
+    font-weight: 300;
+}
+
+.catty-music div:nth-child(1) p:first-child {
+    font-size: 1.8em;
+    margin: 0 0 10px;
+}
+
+.catty-music div:nth-child(1) p:not(:first-child) {
+    font-size: 0.9em;
+    margin: 2px 0;
+}
+
+.left {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+}
+
+.left img {
+    width: 80px;
+    height: 80px;
+    padding-right: 10px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:600px) {
+    .hide {
+        display: none;
+    }
+    .music-list>li>p {
+        flex: 0 0 90%;
+    }
+    .music-head img {
+        width: 150px;
+    }
+    .music-head {
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .catty-music {
+        text-align: center;
+        font-size: 0.7em;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .text {
+        font-size: 1.2em !important;
+        margin-top: 5px;
+    }
+}
