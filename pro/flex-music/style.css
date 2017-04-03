@@ -39,6 +39,15 @@ aside i.fa {
     font-size: 1.2em;
 }
 
+.linkColor {
+    color: #fff;
+}
+
+.linkDecor {
+    text-decoration: none;
+    color: #000;
+}
+
 .content {
     display: flex;
     flex: 1 1 auto;
