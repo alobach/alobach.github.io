@@ -412,8 +412,8 @@ div#work a:hover {
 
 div#work .company1 {
     z-index: 20;
-    top: 60px;
-    left: 45px;
+    top: 23px;
+    left: 14px;
     width: 224px;
     height: 148px;
 }
@@ -426,8 +426,8 @@ div#work .company1 a.quodis {
 
 div#work .webdesign {
     z-index: 21;
-    top: 40px;
-    left: -10px;
+    top: 0px;
+    left: -56px;
     width: 96px;
     height: 90px;
     background-image: url(../img/work/balloon-work-comment-webdesign.png);
@@ -437,6 +437,16 @@ div#work .company2 {
     z-index: 22;
     top: 20px;
     left: 240px;
+}
+div#work .company5 {
+    z-index: 22;
+    top: 141px;
+    left: 128px;
+}
+div#work .company5 a.development {
+    width: 180px;
+    height: 100px;
+    background-image: url(../img/work/Insales_logo2.png);
 }
 
 div#work .company2 a.development {

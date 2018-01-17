@@ -36,6 +36,7 @@ $(document).ready(function() {
     $(".colophon-call2").colorbox({ width: "460px", inline: true, href: "#colophon-notes2" });
     $(".colophon-call3").colorbox({ width: "460px", inline: true, href: "#colophon-notes3" });
     $(".colophon-call4").colorbox({ width: "460px", inline: true, href: "#colophon-notes4" });
+	$(".colophon-call4").colorbox({ width: "460px", inline: true, href: "#colophon-notes5" });
 });
 
 
